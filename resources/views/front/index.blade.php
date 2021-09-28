@@ -8,7 +8,9 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="banner-image" src="{{ asset('images/banner01.jpg') }}" class="d-block w-100" alt="">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-none d-md-block"  data-aos="fade-up" data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="500">
                         <h1 class="banner-title display-5">Desde de 1991. <br>E enquanto exigirem qualidade. </h1>
                     </div>
                 </div>
@@ -16,18 +18,18 @@
 
         </div>
     </section>
-
+    
     <!--Sobre-->
     <section id="about">
         <div class="container">
             <div class="row mb-2">
-                <div class="col-md-12">
+                <div class="col-12 col-md-8">
                     <div
                         class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                         <div class="col-auto d-none d-lg-block">
-                            <img class="teste" src="{{ asset('images/teste.jpg') }}" alt="teste">
+                            <img class="group-image" src="{{ asset('images/image01.jpg') }}" alt="teste">
                         </div>
-                        <div class="col p-4 d-flex flex-column position-static">
+                        <div class="col p-4 d-flex flex-column position-static" data-aos="fade-right">
                             <h1 class="text-center">O Grupo</h1>
                             <p class="card-text mb-auto">Somos um grupo formado pela busca constante por inovação. Tecnologia e
                                 criatividade são alguns de
@@ -38,10 +40,18 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-12 col-md-4" data-aos="fade-left">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <h3 class="mb-0 text-center p-3">Oportunidades</h3>
+                            <p class="card-text mb-auto">Quem trabalha aqui, ama o que faz. Apreciamos pessoas que resolvem problemas, agem proativamente e querem construir um mundo melhor. Se você se identifica com esta filosofia de trabalho, deveria se juntar a nós. Envie seu perfil no Linkedin e sua motivação de candidatura para:</p>
+                            <button class="btn btn-light text-dark">jobs@gunika.co</button>
+                        </div>
+                    </div>
+                </div>
 
-                <div class="col-md-12">
-                    <div
-                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col-12 col-md-4"  data-aos="fade-right">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                         <div class="col p-4 d-flex flex-column position-static">
                             <h3 class="mb-0 text-center p-3">Missão</h3>
                             <p class="card-text mb-auto">Desde a fundação, nossa meta é de ser uma empresa referência no
@@ -50,6 +60,10 @@
                                 região
                             </p>
                         </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4"  data-aos="fade-right">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                         <div class="col p-4 d-flex flex-column position-static">
                             <h3 class="mb-0 text-center p-3">Visão</h3>
                             <p class="card-text mb-auto">Levar as melhores e mais modernas soluções em Tecnologia da
@@ -57,25 +71,18 @@
                                 nossos clientes com qualidade, agilidade e constante aprimoramento dos nossos serviços
                             </p>
                         </div>
-                        <div class="col-auto d-none d-lg-block">
-                            <img class="teste" src="{{ asset('images/teste.jpg') }}" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-4" data-aos="fade-left">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <h3 class="mb-0 text-center p-3">Valores</h3>
+                            <p class="card-text mb-auto pb-4">Ética, profissionalismo, respeito, valorização do ser humano tudo isso incluindo amor ao trabalho. Sempre fazer o melhor, buscando a perfeição em cada detalhe e o máximo resultado. Deus é o nosso guia nele buscamos o caminho.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
-        <!--
-            
-
-            <div class="col p-4 d-flex flex-column position-static">
-                            <h3 class="mb-0 text-center p-3">Valores</h3>
-                            <p class="card-text mb-auto">Ética, profissionalismo, respeito, valorização do ser humano tudo
-                                isso incluindo amor ao trabalho. Sempre fazer o melhor, buscando a perfeição em cada detalhe
-                                e o máximo resultado. Deus é o nosso guia nEle buscamos o caminho.</p>
-                        </div>
-        -->
 
     </section>
 
@@ -84,7 +91,7 @@
         <div class="container py-5">
             <div class="row">
                 <div class="title">
-                    <h1>Serviços</h1>
+                    <h1 class="border-bottom">Serviços</h1>
                 </div>
                 <div class="service-box col-12 col-md-3 p-5">
                     <h2 class="fs-3">Desenvolvimento de sistemas</h2>
