@@ -30,12 +30,13 @@
     <!--JQuery-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+
 </head>
 
 <body>
     <header>
         <!--NavBar-->
-        <nav class="navbar navbar-expand-md fixed-top bg-white">
+        <nav class="navbar navbar-expand-md bg-white">
             <div class="container-fluid">
 
                 <a class="navbar-brand" href="{{ route('site.home') }}"><img class="logo" src="{{ asset('images/logo.png') }}" alt="Logo">
@@ -78,41 +79,35 @@
             <div class="container-fluid pt-5">
                 <div class="row">
 
-                    <div class="col-12 col-md-4 pt-4">
-                        <img class="logo-footer pb-2 mx-4" src="{{ asset('images/logo.png') }}" alt="">
-                        <p class="mx-4"><small>© Grupo Unika 2021. Todos os direitos reservados.</small></p>
-                    </div>
-
-                    <div class="col-12 col-md-4 text-center border-top">
-                        <p class="mx-3" style="padding-top: 30%">
+                    <div class="col-md-12 text-center">
+                        <p class="mx-3">
                             <span>
                                 <a class="footer-links px-2" aria-current="page"
                                     href="{{ route('site.home') }}">Início</a> |
-                                <a class="footer-links px-2" href="#">Termos de uso</a> |
-                                <a class="footer-links px-2" href="#">Privacidade</a>
+                                <a class="footer-links px-2" href="{{ route('site.terms') }}">Termos de uso</a> |
+                                <a class="footer-links px-2" href="{{ route('site.privacy') }}">Privacidade</a>
                             </span>
                         </p>
-                    </div>
-
-                    <div class="col-12 col-md-4 text-end pt-4">
-                        <h4 class="pb-3 mx-4">Fale conosco: </h4>
+                        
                         <p class="mx-5">
                             <a href="https://www.facebook.com/group.unika" target="_blank" class="footer-icons">
                                 <i class="fab fa-facebook"></i></a>
-                            <small>grupo.unika</small>
-                        </p>
-                        <p class="mx-5">
                             <a href="https://www.instagram.com/grupo.unika/" target="_blank" class="footer-icons">
                                 <i class="fab fa-instagram"></i></a>
-                            <small>grupo.unika</small>
                         </p>
+
+                        <p class="mx-4"><small>© Grupo Unika 2021. Todos os direitos reservados.</small></p>
                     </div>
 
                 </div>
             </div>
         </section>
+        
+        <!--Masonry-->
+        <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
 
         <script src="{{ asset('js/web.js') }}"></script>
+        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 

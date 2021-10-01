@@ -1,10 +1,10 @@
 @extends('layouts.web')
 
 @section('content')
-
+    
     <!--Banner-->
     <section id="banner">
-        <div class="banner-image" style="background-image: url('{{ asset('images/banner01.jpg') }}')">
+        <div class="banner-image parallax" style="background-image: url('{{ asset('images/banner01.jpg') }}')">
             <h1 class="banner-title display-5" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">Desde de
                 1991. <br>E enquanto exigirem qualidade. </h1>
         </div>
@@ -12,7 +12,7 @@
     </section>
 
     <!--Serviços-->
-    <section class="services text-light">
+    <section class="background text-light">
         <div class="container py-5 text-center" data-aos="fade-up">
             <div class="row">
                 <div class="service-box col-12 col-md-3 p-5">
@@ -132,17 +132,36 @@
 
     </section>
 
+    <!--Sistema gestor-->
+    <section id="system">
+        <div class="system container-fluid p-5" data-aos="fade-up" data-aos-duration="500" data-aos-easing="linear">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="title">Sistema gestor</h1>
+                </div>
+                <div class="col-md-12 px-5 pb-5 d-flex justify-content-center">
+                    <iframe class="rounded" width="100%" height="500" src="https://www.youtube.com/embed/nDyhUBQMbg4?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=0&amp;loop=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!--Parceiros-->
     <section id="partners">
         <div class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
+                
                 <div class="row">
+
                     <div class="col-md-12">
                         <h1 class="title">Nossos parceiros</h1>
                     </div>
+
                 </div>
+
                 <div class="carousel-item active">
                     <div class="row">
+                        
                         <div class="col-md-2">
                             <img class="partners-images" src="{{ asset('images/parceiros/3pinti-min.png') }}" alt="">
                         </div>
@@ -257,6 +276,7 @@
                         <div class="col-md-2">
                             <img class="partners-images" src="{{ asset('images/parceiros/spc-min.jpg') }}" alt="">
                         </div>
+
                     </div>
                   </div>
 
@@ -289,11 +309,11 @@
     </section>
 
     <!--Depoimentos-->
-    <section id="depoiment" class="p-5 bg-light">
+    <section id="depoiment" class="p-5 background">
         <div class="container">
             <div class="row bg-white">
 
-                <div class="container">
+                <div class="container text-dark">
                     <div class="row">
 
                         <div class="col-md-12 col-12">
@@ -390,7 +410,7 @@
                 <div class="col-12 col-md-6">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3755.127317225925!2d-47.93416025006824!3d-19.749744637762916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bad03206b6d003%3A0x2a81edbc251b5327!2sR.%20Alaor%20Prata%2C%20362%20-%20Estados%20Unidos%2C%20Uberaba%20-%20MG%2C%2038015-010!5e0!3m2!1spt-BR!2sbr!4v1632965204163!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
-                <div class="contact col-12 col-md-6 text-center pt-5 lead text-light">
+                <div class="background col-12 col-md-6 text-center pt-5 lead text-light">
                     <address class="p-4"><i class="fas fa-map-marker-alt"></i> 
                         R. Alaor Prata, 362 CEP 38015-010 <br>Uberaba/MG
                     </address>

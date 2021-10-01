@@ -9,8 +9,17 @@ body{
 }
 
 .title{
-    padding: 5rem;
+    padding: 5rem 0;
     text-align: center;
+}
+
+.title::first-letter{
+    font-size: 5rem;
+}
+
+.background{
+    background-color: rgba(0, 0, 0, 0.952);
+    color: #fff;
 }
 
 /*NavBar*/
@@ -33,6 +42,10 @@ body{
 .banner-image{
     width: 100%;
     height: 700px;
+}
+
+/*Parallax*/
+.parallax{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -40,9 +53,6 @@ body{
 }
 
 /*Serviços*/
-.services, .contact{
-    background-color: rgba(43, 43, 92, 0.979);
-}
 
 .card-image{
     max-height: 200px;
@@ -133,4 +143,31 @@ body{
 .footer-links{
     text-decoration: none;
     color: black;
+}
+
+.terms, .privacy{
+    padding-top: 5rem;
+    text-align: justify;
+}
+
+/*Seti*/
+.seti-images{
+    height: 100%;
+    width: 35rem;
+}
+
+.hvr-shrink {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
 }

@@ -1,8 +1,12 @@
 <?php
 
 use App\Http\Controllers\site\BrandsController;
+use App\Http\Controllers\site\DaraController;
 use App\Http\Controllers\site\HomeControllers;
+use App\Http\Controllers\site\PrivacyController;
 use App\Http\Controllers\site\ServiceController;
+use App\Http\Controllers\site\SetiController;
+use App\Http\Controllers\site\TermsController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -27,5 +31,17 @@ Route::namespace('site')->group(function() {
 
     // Marcas
     Route::get('marcas', [BrandsController::class, 'brands'])->name('site.brands');
+
+    // Privacidade
+    Route::get('privacidade', [PrivacyController::class, 'privacy'])->name('site.privacy');
+
+    // Termos de uso
+    Route::get('termos', [TermsController::class, 'terms'])->name('site.terms');
+
+    // Dara
+    Route::get('dara', [DaraController::class, 'dara'])->name('site.dara');
+
+    // Seti
+    Route::get('seti', [SetiController::class, 'seti'])->name('site.seti');
    
 });
