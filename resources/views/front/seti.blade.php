@@ -75,9 +75,11 @@
         <!-- Redes -->
         <div class="col-md-12" id="2">
             <div class="bg-light m-5 seti-services row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative" data-aos="fade-up">
+
                 <div class="col-auto d-none d-lg-block">
                     <img class="seti-images" src="{{ asset('images/seti/redes-min.jpg') }}" alt="teste">
                 </div>
+
                 <div class="hvr-shrink  col p-4 d-flex flex-column position-static">
                     <h2>Redes e Conectividade</h2>
                     <p>
@@ -95,15 +97,18 @@
                         </ul>
                     </p>
                 </div>
+
             </div>
         </div>
 
         <!-- Servidores -->
         <div class="col-md-12" id="3">
             <div class="bg-light m-5 seti-services row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative" data-aos="fade-up">
+
                 <div class="col-auto d-none d-lg-block">
                     <img class="seti-images" src="{{ asset('images/seti/servidor-min.jpg') }}" alt="teste">
                 </div>
+
                 <div class="hvr-shrink  col p-4 d-flex flex-column position-static">
                     <h2>Manutenção de servidores</h2>
                     <p>
@@ -125,6 +130,7 @@
                         </ul>
                     </p>
                 </div>
+
             </div>
         </div>
 
@@ -154,15 +160,18 @@
                 <div class="col-auto d-none d-lg-block">
                     <img class="seti-images" src="{{ asset('images/seti/assistencia-min.jpg') }}" alt="teste">
                 </div>
+
             </div>
         </div>
 
         <!-- Backup -->
         <div class="col-md-12" id="5">
             <div class="bg-light m-5 seti-services row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative" data-aos="fade-up">
+
                 <div class="col-auto d-none d-lg-block">
                     <img class="seti-images" src="{{ asset('images/seti/backup-min.jpg') }}" alt="teste">
                 </div>
+
                 <div class="hvr-shrink col p-4 d-flex flex-column position-static">
                     <h2>Soluções de Backup</h2>
                     <p>
@@ -177,6 +186,7 @@
                     </p>
                     <p>Prevenir é sempre a melhor escolha.</p>
                 </div>
+
             </div>
         </div>
 
@@ -316,5 +326,6 @@
 
             </div>
         </div>
+        
     </section>
 @endsection

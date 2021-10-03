@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -30,41 +31,49 @@
     <!--JQuery-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-
 </head>
 
 <body>
+
     <header>
+
         <!--NavBar-->
-        <nav class="navbar navbar-expand-md bg-white">
+        <nav class="navbar navbar-expand-md navbar-light p-0">
             <div class="container-fluid">
 
-                <a class="navbar-brand" href="{{ route('site.home') }}"><img class="logo" src="{{ asset('images/logo.png') }}" alt="Logo">
+                <a class="navbar-brand p-2" href="{{ route('site.home') }}"><img class="logo"
+                        src="{{ asset('images/logo.png') }}" alt="Logo">
                 </a>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-                    aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    aria-controls="navbar" aria-expanded="false">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbar">
+                <div class="collapse navbar-collapse justify-content-end" id="navbar">
+
                     <ul class="navbar-nav mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link pt-4 link-dark" aria-current="page" href="{{ route('site.home') }}">Home</a>
+                            <a class="nav-link pt-4 link-dark" aria-current="page"
+                                href="{{ route('site.home') }}">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link pt-4 link-dark" href="{{ route('site.brands') }}">Marcas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link pt-4 link-dark" href="{{ route('site.service') }}">Produtos e Serviços</a>
+                            <a class="nav-link pt-4 link-dark" href="{{ route('site.service') }}">Produtos e
+                                Serviços</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link pt-4 link-dark" href="#footer">Fale conosco</a>
                         </li>
                     </ul>
+
                 </div>
 
             </div>
         </nav>
+
     </header>
 
     <main>
@@ -74,6 +83,7 @@
     </main>
 
     <footer>
+
         <!--Footer-->
         <section id="footer">
             <div class="container-fluid pt-5">
@@ -88,7 +98,7 @@
                                 <a class="footer-links px-2" href="{{ route('site.privacy') }}">Privacidade</a>
                             </span>
                         </p>
-                        
+
                         <p class="mx-5">
                             <a href="https://www.facebook.com/group.unika" target="_blank" class="footer-icons">
                                 <i class="fab fa-facebook"></i></a>
@@ -96,24 +106,32 @@
                                 <i class="fab fa-instagram"></i></a>
                         </p>
 
-                        <p class="mx-4"><small>© Grupo Unika 2021. Todos os direitos reservados.</small></p>
+                        <p class="mx-4">
+                            <small>© Grupo Unika 2021. Todos os direitos reservados.</small>
+                        </p>
+
                     </div>
 
                 </div>
             </div>
         </section>
-        
-        <!--Masonry-->
-        <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
 
-        <script src="{{ asset('js/web.js') }}"></script>
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    </footer>
 
-        <script>
-            AOS.init();
-        </script>
+    <script src="{{ asset('js/web.js') }}"></script>
+
+    <!--Masonry-->
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async>
+    </script>
+
+    <!-- AOS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

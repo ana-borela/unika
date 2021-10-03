@@ -5,11 +5,11 @@ body{
 }
 
 #about{
-    margin: 10rem 0 ;
+    margin: 5rem 0 2rem 0;
 }
 
 .title{
-    padding: 5rem 0;
+    margin: 3rem 0;
     text-align: center;
 }
 
@@ -23,6 +23,7 @@ body{
 }
 
 /*NavBar*/
+
 .logo{
     max-width:150px;
     max-height:100px;
@@ -45,6 +46,7 @@ body{
 }
 
 /*Parallax*/
+
 .parallax{
     background-attachment: fixed;
     background-position: center;
@@ -96,13 +98,14 @@ body{
 }
 
 /*Sobre*/
+
 .about-title{
     text-align: center;
 }
 
-.group-image{
-    height: 344px;
-    width: 400px;
+.group-image {
+    height: 345px;
+    width: 364px;
 }
 
 .name-user{
@@ -111,6 +114,7 @@ body{
 }
 
 /*Parceiros*/
+
 .partners-images{
     width: 100%;
 }
@@ -120,6 +124,7 @@ body{
 }
 
 /*Depoimentos*/
+
 .user-images{
     width: 100px;
     height: 100px;
@@ -127,6 +132,7 @@ body{
 }
 
 /*Footer*/
+
 .footer-icons {
     color: #000000;
     padding-right: 20px;
@@ -151,10 +157,13 @@ body{
 }
 
 /*Seti*/
+
 .seti-images{
     height: 100%;
     width: 35rem;
 }
+
+/*Hover*/
 
 .hvr-shrink {
     display: inline-block;
@@ -171,3 +180,21 @@ body{
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
 }
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: #2c2c2c;
+  }
+  

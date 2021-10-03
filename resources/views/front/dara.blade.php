@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <nav class="navbar navbar-expand-md bg-white border-top">
+    <nav class="navbar navbar-expand-md bg-light">
         <div class="container-fluid">
 
             <div class="collapse navbar-collapse d-flex justify-content-start" id="navbar">
@@ -21,8 +21,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <a class="navbar-brand" href="{{ route('site.dara') }}"><img class="logo"
-                    src="{{ asset('images/dara/logo-dara-min.png') }}" alt="Logo">
+            <a class="navbar-brand" href="{{ route('site.dara') }}"><img class="logo" src="{{ asset('images/dara/logo-dara-min.png') }}" alt="Logo">
             </a>
 
         </div>
@@ -38,6 +37,7 @@
         </div>
     </div>
 
+    <!--Websites-->
     <div class="container">
         <div class="row">
 
