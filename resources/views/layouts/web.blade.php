@@ -21,6 +21,7 @@
 
     <!--CSS-->
     <link rel="stylesheet" href="{{ asset('css/web.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/animation.css') }}">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!--Fonts-->
@@ -31,6 +32,7 @@
     <!--JQuery-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+
 </head>
 
 <body>
@@ -38,7 +40,7 @@
     <header>
 
         <!--NavBar-->
-        <nav class="navbar navbar-expand-md navbar-light p-0 shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light p-0 shadow-sm bg-white">
             <div class="container-fluid">
 
                 <a class="navbar-brand p-2" href="{{ route('site.home') }}"><img class="logo"
