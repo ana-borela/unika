@@ -1,34 +1,21 @@
 @extends('layouts.web')
 
 @section('content')
+    
+    <div class="nav-scroller bg-light">
+        <nav class="nav nav-underline" aria-label="Secondary navigation">
+            <a class="py-4 nav-link link-secondary" href="#title">Soluções</a>
+            <a class="py-4 nav-link link-secondary" href="https://anydesk.com/pt/downloads" target="_blank">Acesso remoto</a>
+            <a class="py-4 nav-link link-secondary" href="#clients">Clientes</a>
 
-    <nav class="navbar navbar-expand-md bg-light border-top">
-        <div class="container-fluid">
 
-            <div class="collapse navbar-collapse d-flex justify-content-start" id="navbar">
-                <ul class="navbar-nav mb-2 mb-md-0">
-                    <li class="nav-item">
-                        <a class="nav-link pt-4 link-dark" aria-current="page" href="#title">Soluções</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link pt-4 link-dark" aria-current="page" href="https://anydesk.com/pt/downloads" target="_blank">Acesso remoto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link pt-4 link-dark" aria-current="page" href="#clients">Clientes</a>
-                    </li>
-                </ul>
+            <div class="col d-flex justify-content-end">
+                <a class="py-2 navbar-brand" href="{{ route('site.dara') }}"><img class="logo" src="{{ asset('images/dara/logo-dara-min.png') }}" alt="Logo">
+                </a>
             </div>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <a class="navbar-brand" href="{{ route('site.dara') }}"><img class="logo" src="{{ asset('images/seti/logo-seti-min.png') }}" alt="Logo">
-            </a>
-    
-        </div>
-    </nav>
+        </nav>
+    </div>
 
     <section id="seti">
 
@@ -44,10 +31,10 @@
 
         <!-- Consultoria -->
         <div class="col-md-12" id="1">
-            <div class="bg-light m-5 seti-services row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative" data-aos="fade-up">
+            <div class="seti-services row g-0 border overflow-hidden flex-md-row shadow-sm h-md-250 position-relative" data-aos="fade-up">
     
-                <div class="hvr-shrink col p-4 d-flex flex-column position-static">
-                    <h2>Consultoria em TI</h2>
+                <div class="hvr-shrink col p-5 d-flex flex-column position-static">
+                    <h2 class="py-3">Consultoria em TI</h2>
                     <p>
                         Milhares de empresas são fechadas anualmente por falta de PLANEJAMENTO que é imprescindível quando
                         se fala em gestão e crescimento. Seja a longo, médio ou curto prazo, a Unika desenvolve Plano
@@ -74,14 +61,14 @@
 
         <!-- Redes -->
         <div class="col-md-12" id="2">
-            <div class="bg-light m-5 seti-services row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative" data-aos="fade-up">
+            <div class="seti-services row g-0 border overflow-hidden flex-md-row shadow-sm h-md-250 position-relative" data-aos="fade-up">
 
                 <div class="col-auto d-none d-lg-block">
                     <img class="seti-images" src="{{ asset('images/seti/redes-min.jpg') }}" alt="teste">
                 </div>
 
-                <div class="hvr-shrink  col p-4 d-flex flex-column position-static">
-                    <h2>Redes e Conectividade</h2>
+                <div class="hvr-shrink  col p-5 d-flex flex-column position-static">
+                    <h2 class="py-3">Redes e Conectividade</h2>
                     <p>
                         Em sua empresa ou residência, a rede de computadores deve ser devidamente protegida para que o(s)
                         usuário(s) possa ter segurança tanto na hora de trabalhar, quanto para fazer transações comerciais e
@@ -101,45 +88,12 @@
             </div>
         </div>
 
-        <!-- Servidores -->
-        <div class="col-md-12" id="3">
-            <div class="bg-light m-5 seti-services row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative" data-aos="fade-up">
-
-                <div class="col-auto d-none d-lg-block">
-                    <img class="seti-images" src="{{ asset('images/seti/servidor-min.jpg') }}" alt="teste">
-                </div>
-
-                <div class="hvr-shrink  col p-4 d-flex flex-column position-static">
-                    <h2>Manutenção de servidores</h2>
-                    <p>
-                        É de fundamental importância para o bom funcionamento de uma empresa o monitoramento com
-                        detalhamento. Desde um simples acesso a sites indesejados, a monitoramento de câmeras de segurança.
-                        A Unika configura redes de acordo com a necessidade de cada empresa e cliente com plena segurança.
-                        Configuramos servidores na plataforma do Linux e Windows, dentre os quais:
-                        <ul>
-                            <li>Serviço de Diretório (contas de usuários unificadas)</li>
-                            <li>FTP (Transferência de arquivos via rede com segurança e velocidade)</li>
-                            <li>Aplicação (Centralização de aplicativos da empresa)</li>
-                            <li>Terminal (Acesso a serviços de terminal remoto)</li>
-                            <li>Proxy (acesso a sites e informações na rede)</li>
-                            <li>Firewall (Controle de entradas e saídas de rede)</li>
-                            <li>VPN (Integração site to site e site to client)</li>
-                            <li>Arquivos (centralizar informações da empresa)</li>
-                            <li>Virtualização (servidores e desktops)</li>
-                            <li>Web Server (Hospedagem LAMP)</li>
-                        </ul>
-                    </p>
-                </div>
-
-            </div>
-        </div>
-
         <!-- Assistencia -->
         <div class="col-md-12" id="4">
-            <div class="bg-light m-5 seti-services row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative" data-aos="fade-up">
+            <div class="seti-services row g-0 border overflow-hidden flex-md-row shadow-sm h-md-250 position-relative" data-aos="fade-up">
                 
-                <div class="hvr-shrink  col p-4 d-flex flex-column position-static">
-                    <h2>Assistência técnica</h2>
+                <div class="hvr-shrink  col p-5 d-flex flex-column position-static">
+                    <h2 class="py-3">Assistência técnica</h2>
                     <p>
                         Para maior durabilidade da sua máquina, seja computador, notebook ou qualquer outro equipamento de
                         informática, a Unika oferece assistência técnica tanto para empresas como para equipamentos
@@ -166,14 +120,14 @@
 
         <!-- Backup -->
         <div class="col-md-12" id="5">
-            <div class="bg-light m-5 seti-services row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative" data-aos="fade-up">
+            <div class="seti-services row g-0 border overflow-hidden flex-md-row shadow-sm h-md-250 position-relative" data-aos="fade-up">
 
                 <div class="col-auto d-none d-lg-block">
                     <img class="seti-images" src="{{ asset('images/seti/backup-min.jpg') }}" alt="teste">
                 </div>
 
-                <div class="hvr-shrink col p-4 d-flex flex-column position-static">
-                    <h2>Soluções de Backup</h2>
+                <div class="hvr-shrink col p-5 d-flex flex-column position-static">
+                    <h2 class="p-3">Soluções de Backup</h2>
                     <p>
                         Dados e informações são valiosíssimos tanto no trabalho quanto na vida pessoal. Empresários precisam
                         ter controle dos seus dados e arquivos. Sem esquecer as fotos pessoais, recordações familiares.
@@ -192,10 +146,10 @@
 
         <!-- Helpdesk -->
         <div class="col-md-12" id="6">
-            <div class="bg-light m-5 seti-services row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative" data-aos="fade-up">
+            <div class="seti-services row g-0 border overflow-hidden flex-md-row shadow-sm h-md-250 position-relative" data-aos="fade-up">
                 
-                <div class="hvr-shrink col p-4 d-flex flex-column position-static">
-                    <h2>Helpdesk local</h2>
+                <div class="hvr-shrink col p-5 d-flex flex-column position-static">
+                    <h2 class="py-3">Helpdesk local</h2>
                     <p>
                         Para maior durabilidade da sua máquina, seja computador, notebook ou qualquer outro equipamento de
                         informática, a Unika oferece assistência técnica tanto para empresas como para equipamentos
@@ -220,8 +174,41 @@
             </div>
         </div>
 
+        <!-- Servidores -->
+        <div class="col-md-12" id="3">
+            <div class="seti-services row g-0 border overflow-hidden flex-md-row shadow-sm h-md-250 position-relative" data-aos="fade-up">
+
+                <div class="col-auto d-none d-lg-block">
+                    <img class="seti-images" src="{{ asset('images/seti/servidor-min.jpg') }}" alt="teste">
+                </div>
+
+                <div class="hvr-shrink  col p-5 d-flex flex-column position-static">
+                    <h2 class="py-3">Manutenção de servidores</h2>
+                    <p>
+                        É de fundamental importância para o bom funcionamento de uma empresa o monitoramento com
+                        detalhamento. Desde um simples acesso a sites indesejados, a monitoramento de câmeras de segurança.
+                        A Unika configura redes de acordo com a necessidade de cada empresa e cliente com plena segurança.
+                        Configuramos servidores na plataforma do Linux e Windows, dentre os quais:
+                        <ul>
+                            <li>Serviço de Diretório (contas de usuários unificadas)</li>
+                            <li>FTP (Transferência de arquivos via rede com segurança e velocidade)</li>
+                            <li>Aplicação (Centralização de aplicativos da empresa)</li>
+                            <li>Terminal (Acesso a serviços de terminal remoto)</li>
+                            <li>Proxy (acesso a sites e informações na rede)</li>
+                            <li>Firewall (Controle de entradas e saídas de rede)</li>
+                            <li>VPN (Integração site to site e site to client)</li>
+                            <li>Arquivos (centralizar informações da empresa)</li>
+                            <li>Virtualização (servidores e desktops)</li>
+                            <li>Web Server (Hospedagem LAMP)</li>
+                        </ul>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
         <!-- Clientes -->
-        <div class="container py-5">
+        <div class="container py-5" id="clients">
             <div class="row">
 
                 <div class="col-md-12 title" id="clients">

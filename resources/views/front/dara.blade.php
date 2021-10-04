@@ -2,30 +2,18 @@
 
 @section('content')
 
-    <nav class="navbar navbar-expand-md bg-light">
-        <div class="container-fluid">
+    <div class="nav-scroller bg-light">
+        <nav class="nav nav-underline" aria-label="Secondary navigation">
+            <a class="py-4 nav-link link-secondary" disable>(34) 3321-9911</a>
+            <a class="py-4 nav-link link-secondary" disable>contato@gunika.co</a>
 
-            <div class="collapse navbar-collapse d-flex justify-content-start" id="navbar">
-                <ul class="navbar-nav mb-2 mb-md-0">
-                    <li class="nav-item px-3">
-                        (34) 3321-9911
-                    </li>
-                    <li class="nav-item px-3">
-                        contato@gunika.co
-                    </li>
-                </ul>
+            <div class="col d-flex justify-content-end">
+                <a class="py-2 navbar-brand" href="{{ route('site.dara') }}"><img class="logo" src="{{ asset('images/dara/logo-dara-min.png') }}" alt="Logo">
+                </a>
             </div>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <a class="navbar-brand" href="{{ route('site.dara') }}"><img class="logo" src="{{ asset('images/dara/logo-dara-min.png') }}" alt="Logo">
-            </a>
-
-        </div>
-    </nav>
+        </nav>
+    </div>
 
     <div class="container">
         <div class="row">
@@ -38,7 +26,7 @@
     </div>
 
     <!--Websites-->
-    <div class="container">
+    <div class="container pb-5">
         <div class="row">
 
             <div class="col-md-2 p-0">

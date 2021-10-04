@@ -38,7 +38,7 @@
     <header>
 
         <!--NavBar-->
-        <nav class="navbar navbar-expand-md navbar-light p-0">
+        <nav class="navbar navbar-expand-md navbar-light p-0 shadow-sm">
             <div class="container-fluid">
 
                 <a class="navbar-brand p-2" href="{{ route('site.home') }}"><img class="logo"
@@ -86,7 +86,7 @@
 
         <!--Footer-->
         <section id="footer">
-            <div class="container-fluid pt-5">
+            <div class="container pt-5 px-5 border-top">
                 <div class="row">
 
                     <div class="col-md-12 text-center">

@@ -9,7 +9,7 @@ body{
 }
 
 .title{
-    margin: 3rem 0;
+    margin: 5rem 0;
     text-align: center;
 }
 
@@ -25,10 +25,8 @@ body{
 /*NavBar*/
 
 .logo{
-    max-width:150px;
-    max-height:100px;
-    width: auto;
-    height: auto;
+    height: 50px;
+    width: 150px;
 }
 
 /*Banner*/
@@ -37,12 +35,12 @@ body{
     text-align: center;
     color: #fff;
     margin: auto;
-    padding: 17.5rem;
+    padding: 23%;
 }
 
 .banner-image{
     width: 100%;
-    height: 700px;
+    height: 750px;
 }
 
 /*Parallax*/
@@ -97,6 +95,11 @@ body{
     transform: scaleX(1);
 }
 
+.service-title{
+    font-size: 25px;
+    text-align: center;
+}
+
 /*Sobre*/
 
 .about-title{
@@ -108,10 +111,10 @@ body{
     width: 364px;
 }
 
-.name-user{
-    padding-top: 20px;
-    text-align: center;
-}
+.about-content{
+    height: 345px;
+ }
+
 
 /*Parceiros*/
 
@@ -121,6 +124,7 @@ body{
 
 .carousel{
     margin: 0 8rem 5rem 8rem;
+    height: 700px;
 }
 
 /*Depoimentos*/
@@ -129,9 +133,19 @@ body{
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    margin: auto;
 }
 
+.name-user{
+    padding-top: 20px;
+    text-align: center;
+}
+
+
 /*Footer*/
+#footer{
+    margin-top: 70px;
+}
 
 .footer-icons {
     color: #000000;
@@ -160,7 +174,11 @@ body{
 
 .seti-images{
     height: 100%;
-    width: 35rem;
+    width: 35.9rem;
+}
+
+.seti-services{
+    margin: 0 5rem;
 }
 
 /*Hover*/
@@ -197,4 +215,72 @@ body{
     transform: scale(1.1);
     background-color: #2c2c2c;
   }
-  
+
+
+
+/*responsivo*/
+@media (max-width: 768px) {
+
+    /*Títulos*/
+    .title{
+        padding: 5px;
+    }
+
+    /*Banner*/
+    .banner-image{
+        height: 470px;
+    }
+
+    .banner-title{
+        font-size: 25px;
+        padding: 25%;
+    }
+
+    /*Serviços*/
+    .service-title{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    /*Sobre*/
+    .card-text{
+        font-size: 12px;
+    }
+
+    .group-image {
+        height: 100%;
+        width: 454px;
+    }
+
+    .about-content{
+       height: 315px;
+    }
+
+    /*Sistema gestor*/
+    .video {
+        width: 620px;
+        height: 345px;
+    }
+
+    /*Parceiros*/
+    .carousel {
+        margin: 0px 3rem 3rem 3rem;
+        height: 375px;
+    }
+
+    /*Depoimentos*/
+    .name-user{
+        padding: 9px 0 0 50%;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .user-images{
+       margin-left: 50%;
+    }
+
+    /*Contato*/
+    .contact{
+        font-size: 17px;
+    }
+}
