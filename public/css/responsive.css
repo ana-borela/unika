@@ -91,4 +91,11 @@
     .service-content{
         font-size: 16px;
     }
+
+    /*Seti*/
+    .seti-images {
+        height: 350px;
+        width: 655px;
+    }
 }
+

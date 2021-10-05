@@ -9,7 +9,7 @@
             <div class="row">
 
                 <div class="col-md-12 banner-image parallax img-fluid"
-                    style="background-image: url('{{ asset('images/banner-min.jpg') }}')">
+                    style="background-image: url('{{ asset('images/banner01.jpg') }}')">
                     <h1 class="banner-title display-5">
                         Desde de
                         1991. <br>E enquanto exigirem qualidade.

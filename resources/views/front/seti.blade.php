@@ -34,7 +34,10 @@
             <div class="row featurette">
 
                 <!-- Consultoria -->
-                <div class="col-md-7 col-sm-12 px-5" id="1" data-aos="fade-up">
+                <div class="col-md-5 col-sm-12 p-4">
+                    <img class="seti-images hvr-grow" src="{{ asset('images/seti/consultoria-min.jpg') }}" alt="teste">
+                </div>
+                <div class="col-md-12 col-lg-6 px-5" id="1" data-aos="fade-up">
                     <h2 class="py-3">Consultoria em TI</h2>
                     <p>
                         Milhares de empresas são fechadas anualmente por falta de PLANEJAMENTO que é imprescindível quando
@@ -52,14 +55,14 @@
                     </ul>
                     </p>
                 </div>
-                <div class="col-md-5 col-sm-12 py-5">
-                    <img class="seti-images hvr-grow" src="{{ asset('images/seti/consultoria-min.jpg') }}" alt="teste">
-                </div>
 
                 <hr class="featurette-divider my-5">
 
                 <!-- Redes -->
-                <div class="col-md-7 col-sm-12 px-5" id="2" data-aos="fade-up">
+                <div class="col-md-5 col-sm-12 p-4">
+                    <img class="seti-images hvr-grow" src="{{ asset('images/seti/redes-min.jpg') }}" alt="teste">
+                </div>
+                <div class="col-md-12 col-lg-6 px-5" id="2" data-aos="fade-up">
                     <h2 class="py-3">Redes e Conectividade</h2>
                     <p>
                         Em sua empresa ou residência, a rede de computadores deve ser devidamente protegida para que o(s)
@@ -76,14 +79,14 @@
                     </ul>
                     </p>
                 </div>
-                <div class="col-md-5 col-sm-12 py-5">
-                    <img class="seti-images hvr-grow" src="{{ asset('images/seti/redes-min.jpg') }}" alt="teste">
-                </div>
 
                 <hr class="featurette-divider my-5">
 
                 <!-- Assistencia -->
-                <div class="col-md-7 col-sm-12 px-5" id="3" data-aos="fade-up">
+                <div class="col-md-5 col-sm-12 p-4">
+                    <img class="seti-images hvr-grow" src="{{ asset('images/seti/assistencia-min.jpg') }}" alt="teste">
+                </div>
+                <div class="col-md-12 col-lg-6 px-5" id="3" data-aos="fade-up">
                     <h2 class="py-3">Assistência técnica</h2>
                     <p>
                         Para maior durabilidade da sua máquina, seja computador, notebook ou qualquer outro equipamento de
@@ -101,14 +104,14 @@
                     </ul>
                     </p>
                 </div>
-                <div class="col-md-5 col-sm-12 py-5">
-                    <img class="seti-images hvr-grow" src="{{ asset('images/seti/assistencia-min.jpg') }}" alt="teste">
-                </div>
 
                 <hr class="featurette-divider my-5">
 
                 <!-- Backup -->
-                <div class="col-md-7 col-sm-12 px-5" id="4" data-aos="fade-up">
+                <div class="col-md-5 col-sm-12 p-4">
+                    <img class="seti-images hvr-grow" src="{{ asset('images/seti/backup-min.jpg') }}" alt="teste">
+                </div>
+                <div class="col-md-12 col-lg-6 px-5" id="4" data-aos="fade-up">
                     <h2 class="p-3">Soluções de Backup</h2>
                     <p>
                         Dados e informações são valiosíssimos tanto no trabalho quanto na vida pessoal. Empresários precisam
@@ -122,14 +125,14 @@
                     </p>
                     <p>Prevenir é sempre a melhor escolha.</p>
                 </div>
-                <div class="col-md-5 col-sm-12 py-5">
-                    <img class="seti-images hvr-grow" src="{{ asset('images/seti/backup-min.jpg') }}" alt="teste">
-                </div>
 
                 <hr class="featurette-divider my-5">
 
                 <!-- Helpdesk -->
-                <div class="col-md-7 col-sm-12 px-5" id="5" data-aos="fade-up">
+                <div class="col-md-5 col-sm-12 p-4">
+                    <img class="seti-images hvr-grow" src="{{ asset('images/seti/helpdesk-min.jpg') }}" alt="teste">
+                </div>
+                <div class="col-md-12 col-lg-6 px-5" id="5" data-aos="fade-up">
                     <h2 class="py-3">Helpdesk local</h2>
                     <p>
                         Para maior durabilidade da sua máquina, seja computador, notebook ou qualquer outro equipamento de
@@ -147,14 +150,14 @@
                     </ul>
                     </p>
                 </div>
-                <div class="col-md-5 col-sm-12 py-5">
-                    <img class="seti-images hvr-grow" src="{{ asset('images/seti/helpdesk-min.jpg') }}" alt="teste">
-                </div>
 
                 <hr class="featurette-divider my-5">
 
                 <!-- Servidores -->
-                <div class="col-md-7 col-sm-12 px-5" id="6" data-aos="fade-up">
+                <div class="col-md-5 col-sm-12 p-4">
+                    <img class="seti-images hvr-grow" src="{{ asset('images/seti/servidor-min.jpg') }}" alt="teste">
+                </div>
+                <div class="col-md-12 col-lg-6 px-5" id="6" data-aos="fade-up">
                     <h2 class="py-3">Manutenção de servidores</h2>
                     <p>
                         É de fundamental importância para o bom funcionamento de uma empresa o monitoramento com
@@ -174,9 +177,6 @@
                         <li>Web Server (Hospedagem LAMP)</li>
                     </ul>
                     </p>
-                </div>
-                <div class="col-md-5 col-sm-12 py-5">
-                    <img class="seti-images hvr-grow" src="{{ asset('images/seti/servidor-min.jpg') }}" alt="teste">
                 </div>
 
             </div>
