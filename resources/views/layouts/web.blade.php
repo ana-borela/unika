@@ -22,6 +22,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="{{ asset('css/web.css') }}">
     <link rel="stylesheet" href="{{ asset('css/animation.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!--Fonts-->
