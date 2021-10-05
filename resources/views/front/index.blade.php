@@ -24,38 +24,38 @@
     <!--Serviços-->
     <section class="background text-light">
 
-        <div class="container py-5 text-center" data-aos="fade-up">
+        <div class="container py-5 text-center" data-aos="fade-up" data-tilt-max-glare>
             <div class="row">
 
-                <div class="service-box col-12 col-md-3 p-5 hvr-grow">
+                <div class="service-box col-12 col-md-3 p-5" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                     <h2 class="box-title">Desenvolvimento de sistemas</h2>
                 </div>
 
-                <div class="service-box col-12 col-md-3 p-5 hvr-grow">
+                <div class="service-box col-12 col-md-3 p-5" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                     <h2 class="box-title">Desenvolvimento de websites</h2>
                 </div>
 
-                <div class="service-box col-12 col-md-3 p-5 hvr-grow">
+                <div class="service-box col-12 col-md-3 p-5" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                     <h2 class="box-title">Consultoria em TI</h2>
                 </div>
 
-                <div class="service-box col-12 col-md-3 p-5 hvr-grow">
+                <div class="service-box col-12 col-md-3 p-5" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                     <h2 class="box-title">Redes & Conectividade</h2>
                 </div>
 
-                <div class="service-box col-12 col-md-3 p-5 hvr-grow">
+                <div class="service-box col-12 col-md-3 p-5" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                     <h2 class="box-title">Manutenção de servidores</h2>
                 </div>
 
-                <div class="service-box col-12 col-md-3 p-5 hvr-grow">
+                <div class="service-box col-12 col-md-3 p-5" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                     <h2 class="box-title">Assistência técnica</h2>
                 </div>
 
-                <div class="service-box col-12 col-md-3 p-5 hvr-grow">
+                <div class="service-box col-12 col-md-3 p-5" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                     <h2 class="box-title">Soluções de Backup</h2>
                 </div>
 
-                <div class="service-box col-12 col-md-3 p-5 hvr-grow">
+                <div class="service-box col-12 col-md-3 p-5" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                     <h2 class="box-title">Helpdesk Local</h2>
                 </div>
 
@@ -72,7 +72,7 @@
 
                 <div class="col-12 col-md-8">
                     <div
-                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative hrv-grow">
 
                         <div class="col-md-6">
                             <img class="group-image" src="{{ asset('images/image01.jpg') }}" alt="teste">

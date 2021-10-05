@@ -41,8 +41,8 @@
     <header>
 
         <!--NavBar-->
-        <nav class="navbar navbar-expand-md navbar-light p-0 shadow-sm bg-white">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-light shadow-sm bg-white fixed-top">
+            <div class="container-fluid p-0">
 
                 <a class="navbar-brand p-2" href="{{ route('site.home') }}"><img class="logo"
                         src="{{ asset('images/logo.png') }}" alt="Logo">
@@ -131,6 +131,18 @@
     <!-- AOS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!--Tilt-->
+    <script type="text/javascript" src="{{ asset('js/vanilla-tilt.js') }}"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".your-element"), {
+            max: 25,
+            speed: 400
+        });
+        
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".your-element"));
+    </script>
 
     <script>
         AOS.init();

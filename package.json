@@ -16,6 +16,7 @@
         "postcss": "^8.1.14"
     },
     "dependencies": {
-        "hover.css": "^2.3.2"
+        "hover.css": "^2.3.2",
+        "vanilla-tilt": "^1.7.2"
     }
 }
