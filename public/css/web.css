@@ -72,7 +72,7 @@ body{
 
 
 .service-image{
-    width: 85%;
+    width: 75%;
     height: 450px;
 }
 
@@ -148,17 +148,10 @@ body{
 
 /*Seti*/
 
-.seti-images{
-    height: 100%;
-    width: 35.9rem;
+.seti-images {
+    height: 300px;
+    width: 400px;
 }
-
-.seti-services{
-    margin: 0 5rem;
-}
-
-
-
 
 /*responsivo*/
 @media (max-width: 768px) {
@@ -222,8 +215,35 @@ body{
        margin-top: 10px;
     }
 
+    .text-user{
+        font-size: 12px;
+    }
+
     /*Contato*/
     .contact{
         font-size: 17px;
+    }
+
+    /*Marcas*/
+    .card-title{
+        font-size: 28px;
+    }
+
+    .card-text{
+        font-size: 16px;
+    }
+
+    /*Serviços*/
+    .service-image {
+        width: 91%;
+        height: 395px;
+    }
+
+    .service-title{
+        font-size: 20px;
+    }
+
+    .service-content{
+        font-size: 16px;
     }
 }

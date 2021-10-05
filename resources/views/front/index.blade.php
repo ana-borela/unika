@@ -9,7 +9,7 @@
             <div class="row">
 
                 <div class="col-md-12 banner-image parallax img-fluid"
-                    style="background-image: url('{{ asset('images/banner01.jpg') }}')">
+                    style="background-image: url('{{ asset('images/banner-min.jpg') }}')">
                     <h1 class="banner-title display-5">
                         Desde de
                         1991. <br>E enquanto exigirem qualidade.
@@ -168,7 +168,7 @@
     </section>
 
     <!--Sistema gestor-->
-    <section id="system">
+    <section id="system" class="background">
 
         <div class="system container p-3">
             <div class="row">
@@ -416,7 +416,7 @@
             <div class="row">
 
                 <div class="col-md-12 col-12 p-5">
-                    <h1 class="title text-center">
+                    <h1 class="text-center">
                         <i class="fas fa-quote-left"></i>
                         Depoimentos
                     </h1>
@@ -431,7 +431,7 @@
                     <img class="user-images image-fluid mx-auto d-block" src="{{ asset('images/depoimentos/user-cesar.jpg') }}" alt="">
                     <p class="pt-3"><strong>CÉSAR MARTINS </strong></p>
                     <p><small> Supervisor / OAB Uberaba</small></p>
-                    <p>
+                    <p class="text-user">
                         OAB Uberaba Trabalha com a Unika Informática há vários anos e estamos satisfeitos com
                         os serviços prestados pela mesma. Estão sempre aprimorando e reciclando seus
                         conhecimentos favorecendo assim um bom atendimento.
@@ -442,7 +442,7 @@
                     <img class="user-images image-fluid mx-auto d-block" src="{{ asset('images/depoimentos/user-jordana.jpg') }}" alt="">
                     <p class="pt-3"><strong>JORDANA CASTRO </strong></p>
                     <p><small> Secretaria do conselho / OAB Araxá</small></p>
-                    <p>
+                    <p class="text-user">
                         O Grupo Unika trabalha com a OAB Araxá há um ano, e posso dizer que nesse período
                         tivemos inúmeras melhorias em nosso site e programas. A equipe é altamente
                         capacitada, sempre atendendo às nossas demandas com rapidez, qualidade e atenção.
@@ -454,7 +454,7 @@
                     <img class="user-images image-fluid mx-auto d-block" src="{{ asset('images/depoimentos/user-samuel.jpg') }}" alt="">
                     <p class="pt-3"><strong>SAMUEL PEREZ </strong></p>
                     <p><small> Analista de TI / Grupo Araunah</small></p>
-                    <p class="pb-5">
+                    <p class="pb-5 text-user">
                         Escolhemos formar uma parceria com o Grupo Unika por ser um
                         centro de excelência na qualidade em T.I. Possui profissionais capacitados,
                         metodologia comprovada e excelentes recursos, que fazem com que estejamos plenamente
@@ -466,7 +466,7 @@
                     <img class="user-images image-fluid mx-auto d-block" src="{{ asset('images/depoimentos/user-manoel.jpg') }}" alt="">
                     <p class="pt-3"><strong>MANOEL RODRIGUES NETO </strong></p>
                     <p><small> Presidente / ACIU</small></p>
-                    <p>
+                    <p class="text-user">
                         Novos modelos de gestão atestam a necessidade de contratar especialistas. O Grupo
                         Unika, empresa 100% uberabense, especialista em oferecer serviços de assessoria em
                         tecnologia da informação é nosso parceiro há muitos anos. Destacamos sua

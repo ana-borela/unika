@@ -21,8 +21,8 @@
                             </div>
                             <div class="col-md-6">
                                 <h1 class="service-title">WEBSITES & SISTEMAS</h1>
-                                <p class="lead px-5">Desenvolvimento de sistemas inteligentes, com as tecnologias mais modernas e com design responsivo.</p>
-                                <a class="btn btn-light link-dark" href="{{ route('site.dara') }}">Conheça</a>
+                                <p class="lead px-5 service-content">Desenvolvimento de sistemas inteligentes, com as tecnologias mais modernas e com design responsivo.</p>
+                                <a class="btn btn-light link-dark service-content" href="{{ route('site.dara') }}">Conheça</a>
                             </div>
 
                         </div>
@@ -33,8 +33,8 @@
     
                             <div class="col-md-6">
                                 <h1 class="display-6 service-title">SERVIÇOS EM TI</h1>
-                                <p class="lead px-5">Soluções completas para sua empresa crescer com dimensionamento e segurança. Consultoria em TI. Assistência técnica.</p>
-                                <a class="btn btn-light link-dark" href="{{ route('site.seti') }}">Conheça</a>
+                                <p class="lead px-5 service-content">Soluções completas para sua empresa crescer com dimensionamento e segurança. Consultoria em TI. Assistência técnica.</p>
+                                <a class="btn btn-light link-dark service-content" href="{{ route('site.seti') }}">Conheça</a>
                             </div>
                             <div class="col-md-6">
                                 <img class="service-image" src="{{ asset('images/servicos.png') }}" alt="">
