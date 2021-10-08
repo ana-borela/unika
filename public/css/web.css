@@ -1,69 +1,75 @@
 @charset 'UTF-8';
 
 body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    background-color:#040404;
     font-family: 'Raleway', sans-serif;
 }
 
-#about{
-    margin: 5rem 0 2rem 0;
-}
-
+/*Títulos*/
 .title{
     margin: 5rem 0;
     text-align: end;
-    border-bottom: 2px solid rgba(194, 194, 194, 0.096);
+    border-bottom: 2px solid rgba(100, 100, 100, 0.342)
 }
-
 
 .title::first-letter{
     font-size: 4rem;
     font-weight: 600;
 }
 
-.background{
-    background-color: rgba(0, 0, 0, 0.952);
-    color: #fff;
-}
 
 /*NavBar*/
 
-.logo{
-    height: 50px;
-    width: 150px;
+.logo {
+    height: 45px;
+    width: 140px;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-link{
+    font-weight: 600;
 }
 
 /*Banner*/
+.banner{
+    height:100vh;
+    color:#ffffff;
+    text-align:center;
+    width: 100%;
+}
 
 .banner-title{
-    text-align: center;
-    color: #fff;
-    margin: auto;
-    padding: 23%;
+    position:relative;
+    top:30%;
 }
 
-.banner-image{
-    width: 100%;
-    height: 800px;
-}
-
-/*Parallax*/
-
-.parallax{
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.banner-title h1{
+    font-weight:900;
+    font-size:5em;
+    margin:3rem 0 ;
+    letter-spacing: 3px;
 }
 
 /*Serviços*/
+
+#service{
+    margin: 4rem 0 ;
+}
 
 .card-image{
     max-height: 200px;
 }
 
 .box-title{
-    font-size: 25px;
-    text-align: center;
+    position: relative;
+    z-index: 10;
+    font-size: 20px;
 }
 
 .service-title{
@@ -76,7 +82,17 @@ body{
     height: 450px;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    filter: invert(100%);
+}
+
 /*Sobre*/
+
+#about{
+    padding: 5rem 1rem;  
+    background-color: #fff;  
+}
 
 .about-title{
     text-align: center;
@@ -89,7 +105,7 @@ body{
 
 .about-content{
     height: 345px;
- }
+}
 
 
 /*Parceiros*/
@@ -102,6 +118,7 @@ body{
     margin: 0 8rem 5rem 8rem;
     height: 550px;
 }
+
 
 /*Depoimentos*/
 
@@ -119,10 +136,14 @@ body{
 
 
 /*Footer*/
+#footer{
+    margin: 30px 0 0 0 ;
+}
+
 .footer-icons {
     color: #000000;
     padding-right: 20px;
-    font-size: larger;
+    font-size: 35px;
 }
 
 .logo-footer{
@@ -135,6 +156,7 @@ body{
 .footer-links{
     text-decoration: none;
     color: black;
+    font-size: 20px;
 }
 
 .terms, .privacy{

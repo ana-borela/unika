@@ -7,8 +7,8 @@
 
         <div class="container px-4 py-5" id="cards">
 
-            <h2 class="title">Nosas Marcas</h2>
-            <h3 class="p-3 text-center">Conheça nossas empresas, produtos e serviços</h3>
+            <h2 class="title text-white">Nosas Marcas</h2>
+            <h3 class="p-3 text-center text-white">Conheça nossas empresas, produtos e serviços</h3>
 
             <div class="row align-items-stretch py-5">
                 <div class="col-12 col-md-6 p-0 bg-light">
@@ -31,7 +31,7 @@
 
                 </div>
 
-                <div class="col-12 col-md-6 p-0">
+                <div class="col-12 col-md-6 p-0 bg-white">
                     
                     <div class="border border-light p-2 text-center overflow-hidden">
                         
