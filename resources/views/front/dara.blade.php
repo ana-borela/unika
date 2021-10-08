@@ -10,7 +10,7 @@
                 <a class="py-4 nav-link link-secondary" disable>(34) 3321-9911</a>
                 <a class="py-4 nav-link link-secondary" disable>contato@gunika.co</a>
                 <div class="col d-flex justify-content-end">
-                    <a class="py-2 navbar-brand" href="{{ route('site.dara') }}"><img class="logo" src="{{ asset('images/dara/logo-dara-min.png') }}" alt="Logo">
+                    <a class="pt-3 navbar-brand" href="{{ route('site.dara') }}"><img class="logo" src="{{ asset('images/dara/logo-dara-min.png') }}" alt="Logo">
                     </a>
                 </div>
             </nav>

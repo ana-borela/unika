@@ -10,8 +10,8 @@
 
 
             <div class="col d-flex justify-content-end">
-                <a class="py-2 navbar-brand" href="{{ route('site.dara') }}"><img class="logo"
-                        src="{{ asset('images/dara/logo-dara-min.png') }}" alt="Logo">
+                <a class="pt-3 navbar-brand" href="{{ route('site.dara') }}"><img class="logo"
+                        src="{{ asset('images/seti/logo-seti-min.png') }}" alt="Logo">
                 </a>
             </div>
 
@@ -31,7 +31,7 @@
         </div>
 
         <div class="container">
-            <div class="row featurette">
+            <div class="row bg-white text-dark py-5">
 
                 <!-- Consultoria -->
                 <div class="col-md-12 px-5" id="1">
