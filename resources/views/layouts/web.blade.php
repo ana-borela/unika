@@ -61,18 +61,18 @@
 
                         <ul class="navbar-nav mb-2 mb-md-0">
                             <li class="nav-item">
-                                <a class="nav-link pt-4 link-dark mx-3" aria-current="page"
+                                <a class="nav-link pt-4 link-dark mx-3 hvr" aria-current="page"
                                     href="{{ route('site.home') }}">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link pt-4 link-dark mx-3" href="{{ route('site.brands') }}">Marcas</a>
+                                <a class="nav-link pt-4 link-dark mx-3 hvr" href="{{ route('site.brands') }}">Marcas</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link pt-4 link-dark mx-3" href="{{ route('site.service') }}">Produtos e
+                                <a class="nav-link pt-4 link-dark mx-3 hvr" href="{{ route('site.service') }}">Produtos e
                                     Serviços</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link pt-4 link-dark mx-3" href="#footer">Fale conosco</a>
+                                <a class="nav-link pt-4 link-dark mx-3 hvr" href="#footer">Fale conosco</a>
                             </li>
                         </ul>
 

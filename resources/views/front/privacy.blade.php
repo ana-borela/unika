@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="container">
+    <div class="container-fluid mt-5 bg-white">
         <div class="row">
 
             <div class="privacy col-md-12">
