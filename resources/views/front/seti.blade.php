@@ -20,18 +20,13 @@
 
     <section id="seti" class="text-white">
 
-        <div class="container" id="title">
-            <div class="row">
+        <div class="container-fluid">
+            <div class="row bg-white text-dark py-5">
+
 
                 <div class="col-md-12 title">
                     <h1>Soluções em TI</h1>
                 </div>
-
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row bg-white text-dark py-5">
 
                 <!-- Consultoria -->
                 <div class="col-md-12 px-5" id="1">
@@ -70,7 +65,7 @@
                         cuida do suporte de sua rede com eficiência e segurança. Temos ferramentas para:
                     </p>
                 </div>
-                
+
                 <div class="col-md-12">
                     <ul>
                         <li>Inventário de equipamentos na rede</li>
