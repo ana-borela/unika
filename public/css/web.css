@@ -170,3 +170,7 @@ body{
     height: 300px;
     width: 400px;
 }
+
+.nav-scroller{
+    padding: 75px 0 0 0;
+}
