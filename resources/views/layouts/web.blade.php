@@ -127,8 +127,6 @@
 
         <script type="text/javascript" src="{{ asset('js/web.js') }}"></script>
 
-        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
-
         <!--Masonry-->
         <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
             integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async>
@@ -146,6 +144,7 @@
             
             VanillaTilt.init(document.querySelectorAll(".your-element"));
         </script>
+
     </div>
     
 </body>
