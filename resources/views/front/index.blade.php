@@ -59,7 +59,58 @@
 
                 </div>
             </div>
-        </section>
+        </section> 
+
+        <!--Serviços (bordas redondas)
+        <section class="text-light" id="service" data-scroll-section>
+
+            <div class="container py-5 text-center" data-tilt-max-glare>
+                <div class="row">
+        
+                    <div id="service-box" class="col-12 col-md-3 " data-tilt data-tilt-glare data-tilt-max-glare="0.8"
+                    data-scroll data-scroll-speed="-1">
+                        <div id="sistemas"></div>
+                    </div>
+                    
+                    <div id="service-box" class="col-12 col-md-3" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
+                    data-scroll data-scroll-speed="2">
+                        <div id="websites"></div>
+                    </div>
+                    
+                    <div id="service-box" class="col-12 col-md-3" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
+                    data-scroll data-scroll-speed="-1">
+                        <div id="consultoria"></div>
+                    </div>
+                    
+                    <div id="service-box" class="col-12 col-md-3" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
+                    data-scroll data-scroll-speed="2">
+                        <div id="redes"></div>
+                    </div>
+
+                    <div id="service-box" class="col-12 col-md-3" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
+                    data-scroll data-scroll-speed="-2">
+                        <div id="manutencao"></div>
+                    </div>
+                    
+                    <div id="service-box" class="col-12 col-md-3" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
+                    data-scroll data-scroll-speed="-1">
+                        <div id="assistencia"></div>
+                    </div>
+                    
+                    <div id="service-box" class="col-12 col-md-3" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
+                    data-scroll data-scroll-speed="-2">
+                        <div id="backup"></div>
+                    </div>
+                    
+                    <div id="service-box" class="col-12 col-md-3" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
+                    data-scroll data-scroll-speed="-2">
+                        <div id="helpdesk"></div>
+                    </div>
+        
+                </div>
+            </div>
+
+        </section>-->
 
         <!--Sobre e depoimentos-->
         <section id="about" data-scroll-section>
@@ -99,7 +150,7 @@
                         <div
                             class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                             <div class="about-content col p-4 d-flex flex-column position-static">
-                                <h3 class="abou-title">Oportunidades</h3>
+                                <h3 class="about-title">Oportunidades</h3>
                                 <p class="card-text mb-auto">
                                     Quem trabalha aqui, ama o que faz. Apreciamos pessoas que resolvem
                                     problemas, agem proativamente e querem construir um mundo melhor. Se você se
@@ -261,151 +312,157 @@
 
         <!--Parceiros-->
         <section id="partners" data-scroll-section>
+
             <div class="container">
                 <div class="row">
+
                     <div class="col-md-12">
                         <h1 class="title text-white" data-scroll data-scroll-direction="horizontal" data-scroll-speed="2"
                             data-scroll-class="appear" data-scroll-repeat="true">Nossos
                             Parceiros</h1>
                     </div>
+
                 </div>
             </div>
+
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
-                            <div class="col-12 col-md-2 my-2">
+                            
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/3pinti-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/aciu-min.jpg') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/adesg-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/ag-auditoria-min.jpg') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/araunah-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/bandeirantes-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/camara-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/cartorio-protesto-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/cartorio-registro-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/cascata-min.jpg') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/catavento-min.jpg') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/cdl-min.jpg') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/cell-center-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/cozinha-min.jpg') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/doidao-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/efop-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/empreender-min.jpg') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/filtros-e-velas-min.png') }}" alt="">
                             </div>
+                            
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="row">
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/fit-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/fuka-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/fundacao-triangulo-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/goodsoy-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/iso-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/jcoadvocacia-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/liderexecutive-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/lm-supermercados-min.jpg') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/mac-min.jpg') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/nhdfoods-min.jpg') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/oab-araxa-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/oab-min.jpg') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/omni-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/penergetic-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/rg-contabilidade-min.jpg') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/solidez-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/soluti-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/spc-min.jpg') }}" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="row">
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/studio55-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/talaricos-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/uberababaoproce-min.jpg') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/ultragaz-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/usa75-min.png') }}" alt="">
                             </div>
-                            <div class="col-12 col-md-2 my-2">
+                            <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/zebu-min.png') }}" alt="">
                             </div>
                         </div>
@@ -423,7 +480,7 @@
                             data-scroll-class="appear" data-scroll-repeat="true">Onde nos
                             encontrar</h1>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 p-0 m-0">
                         <iframe class="map"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3755.127317225925!2d-47.93416025006824!3d-19.749744637762916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bad03206b6d003%3A0x2a81edbc251b5327!2sR.%20Alaor%20Prata%2C%20362%20-%20Estados%20Unidos%2C%20Uberaba%20-%20MG%2C%2038015-010!5e0!3m2!1spt-BR!2sbr!4v1632965204163!5m2!1spt-BR!2sbr"
                             width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>

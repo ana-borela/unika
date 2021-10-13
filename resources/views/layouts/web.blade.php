@@ -126,6 +126,7 @@
         </footer>
 
         <script type="text/javascript" src="{{ asset('js/web.js') }}"></script>
+        <script src="{{ asset('js/progressbar.min.js') }}"></script>
 
         <!--Masonry-->
         <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"

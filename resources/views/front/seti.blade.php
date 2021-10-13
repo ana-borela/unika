@@ -4,17 +4,11 @@
 
     <div class="nav-scroller bg-light">
         <nav class="nav nav-underline" aria-label="Secondary navigation">
-            <a class="py-4 nav-link link-secondary" href="#title">Soluções</a>
-            <a class="py-4 nav-link link-secondary" href="https://anydesk.com/pt/downloads" target="_blank">Acesso remoto</a>
-            <a class="py-4 nav-link link-secondary" href="#clients">Clientes</a>
 
-
-            <div class="col d-flex justify-content-end">
-                <a class="pt-3 navbar-brand" href="{{ route('site.dara') }}"><img class="logo"
-                        src="{{ asset('images/seti/logo-seti-min.png') }}" alt="Logo">
-                </a>
-            </div>
-
+            <a class="py-4 navScroller nav-link link-secondary" href="#title">Soluções</a>
+            <a class="py-4 navScroller nav-link link-secondary" href="https://anydesk.com/pt/downloads" target="_blank">Acesso remoto</a>
+            <a class="py-4 navScroller nav-link link-secondary" href="#clients">Clientes</a>
+            
         </nav>
     </div>
 
@@ -24,13 +18,13 @@
             <div class="row bg-white text-dark py-5">
 
 
-                <div class="col-md-12 title">
+                <div class="col-md-12 title px-4">
                     <h1>Soluções em TI</h1>
                 </div>
 
                 <!-- Consultoria -->
-                <div class="col-md-12 px-5" id="1">
-                    <h2 class="py-3">Consultoria em TI</h2>
+                <div class="col-md-12 px-5 seti-content" id="1">
+                    <h2 class="py-3 seti-title">Consultoria em TI</h2>
                     <p>
                         Milhares de empresas são fechadas anualmente por falta de PLANEJAMENTO que é imprescindível quando
                         se fala em gestão e crescimento. Seja a longo, médio ou curto prazo, a Unika desenvolve Plano
@@ -39,12 +33,17 @@
                     </p>
                 </div>
 
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12 seti-content">
                     <ul>
                         <li>Análise para investimento em equipamentos: rede de dados, Servidores, Telefonia, Impressão e
                             equipamentos.</li>
                         <li>Alinhamento estratégico, Governança de TI, Planos de metas/ação.</li>
                         <li>Políticas de segurança</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-12 seti-content">
+                    <ul>
                         <li>Políticas de uso de equipamentos</li>
                         <li>Processos para melhor utilização de recursos (impressão, energia etc)</li>
                         <li>Emails corporativos</li>
@@ -54,8 +53,8 @@
                 <hr class="featurette-divider my-5">
 
                 <!-- Redes -->
-                <div class="col-md-12 px-5" id="2">
-                    <h2 class="py-3">Redes e Conectividade</h2>
+                <div class="col-md-12 px-5 seti-content" id="2">
+                    <h2 class="py-3 seti-title">Redes e Conectividade</h2>
                     <p>
                         Em sua empresa ou residência, a rede de computadores deve ser devidamente protegida para que o(s)
                         usuário(s) possa ter segurança tanto na hora de trabalhar, quanto para fazer transações comerciais e
@@ -66,7 +65,7 @@
                     </p>
                 </div>
 
-                <div class="col-md-12">
+                <div class="col-md-12 seti-content">
                     <ul>
                         <li>Inventário de equipamentos na rede</li>
                         <li>Alerta de vírus remotamente</li>
@@ -78,8 +77,8 @@
                 <hr class="featurette-divider my-5">
 
                 <!-- Assistencia -->
-                <div class="col-md-12 px-5" id="3">
-                    <h2 class="py-3">Assistência técnica</h2>
+                <div class="col-md-12 px-5 seti-content" id="3">
+                    <h2 class="py-3 seti-title">Assistência técnica</h2>
                     <p>
                         Para maior durabilidade da sua máquina, seja computador, notebook ou qualquer outro equipamento de
                         informática, a Unika oferece assistência técnica tanto para empresas como para equipamentos
@@ -90,7 +89,7 @@
                     </p>
                 </div>
 
-                <div class="col-md-12">
+                <div class="col-md-12 seti-content">
                     <ul>
                         <li>Manutenção preventiva (detectar e resolver problemas antes que ocorram)</li>
                         <li>Manutenção corretiva</li>
@@ -103,7 +102,7 @@
                 <hr class="featurette-divider my-5">
 
                 <!-- Backup -->
-                <div class="col-md-12 px-5" id="4">
+                <div class="col-md-12 px-5 seti-content" id="4">
                     <h2 class="p-3">Soluções de Backup</h2>
                     <p>
                         Dados e informações são valiosíssimos tanto no trabalho quanto na vida pessoal. Empresários precisam
@@ -113,7 +112,7 @@
                     </p>
                 </div>
 
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12 seti-content">
                     <ul>
                         <li>Espelhamento Local</li>
                         <li>Upload para nuvem</li>
@@ -125,8 +124,8 @@
                 <hr class="featurette-divider my-5">
 
                 <!-- Helpdesk -->
-                <div class="col-md-12 px-5" id="5">
-                    <h2 class="py-3">Helpdesk local</h2>
+                <div class="col-md-12 px-5 seti-content" id="5">
+                    <h2 class="py-3 seti-title">Helpdesk local</h2>
                     <p>
                         Para maior durabilidade da sua máquina, seja computador, notebook ou qualquer outro equipamento de
                         informática, a Unika oferece assistência técnica tanto para empresas como para equipamentos
@@ -137,7 +136,7 @@
                     </p>
                 </div>
 
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12 seti-content">
                     <ul>
                         <li>Manutenção preventiva (detectar e resolver problemas antes que ocorram)</li>
                         <li>Manutenção corretiva</li>
@@ -150,8 +149,8 @@
                 <hr class="featurette-divider my-5">
 
                 <!-- Servidores -->
-                <div class="col-md-12 px-5" id="6">
-                    <h2 class="py-3">Manutenção de servidores</h2>
+                <div class="col-md-12 px-5 seti-content" id="6">
+                    <h2 class="py-3 seti-title">Manutenção de servidores</h2>
                     <p>
                         É de fundamental importância para o bom funcionamento de uma empresa o monitoramento com
                         detalhamento. Desde um simples acesso a sites indesejados, a monitoramento de câmeras de segurança.
@@ -160,7 +159,7 @@
                     </p>
                 </div>
 
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12 seti-content">
                     <ul>
                         <li>Serviço de Diretório (contas de usuários unificadas)</li>
                         <li>FTP (Transferência de arquivos via rede com segurança e velocidade)</li>
@@ -170,7 +169,7 @@
                     </ul>
                 </div>
 
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12 seti-content">
                     <ul>
                         <li>Firewall (Controle de entradas e saídas de rede)</li>
                         <li>VPN (Integração site to site e site to client)</li>
@@ -192,99 +191,99 @@
                     <h1>Clientes</h1>
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/bandeirantes-min.png') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/cell-center-min.png') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/iso-min.png') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/lm-supermercados-min.jpg') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/nhdfoods-min.jpg') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/fundacao-triangulo-min.png') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/talaricos-min.png') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/aciu-min.jpg') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/cartorio-protesto-min.png') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/cartorio-registro-min.png') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/cdl-min.jpg') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/rg-contabilidade-min.jpg') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/ag-auditoria-min.jpg') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/cozinha-min.jpg') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/doidao-min.png') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/efop-min.png') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/fit-min.png') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/goodsoy-min.png') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/jcoadvocacia-min.png') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/ultragaz-min.png') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/mac-min.jpg') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/oab-min.jpg') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/omni-min.png') }}" alt="">
                 </div>
 
-                <div class="col-12 col-md-2 py-2">
+                <div class="col-4 col-md-2 py-2">
                     <img class="partners-images" src="{{ asset('images/parceiros/penergetic-min.png') }}" alt="">
                 </div>
 

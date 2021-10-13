@@ -3,99 +3,194 @@
 
     /*Títulos*/
     .title{
-        padding: 5px;
+        margin: 2rem 0;
+        text-align: end;
+        border-bottom: 2px solid rgba(100, 100, 100, 0.342)
     }
 
-    /*Banner*/
-    .banner-image{
-        height: 470px;
+    .title::first-letter{
+        font-size: 3rem;
+        font-weight: 600;
     }
 
-    .banner-title{
-        font-size: 25px;
-        padding: 25%;
+    /*Banner*/    
+    .banner-title h1{
+        font-weight:900;
+        font-size:3em;
+        margin:3rem 0 ;
+        letter-spacing: 3px;
     }
 
     /*Serviços*/
+    .service-box {
+        position: relative;
+        width: 160px;
+        height: 144px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
     .box-title{
-        font-size: 15px;
-        text-align: center;
-    }
-
-    /*Sobre*/
-    .card-text{
-        font-size: 12px;
-    }
-
-    .group-image {
-        height: 100%;
-        width: 454px;
-    }
-
-    .about-content{
-       height: 315px;
-    }
-
-    /*Sistema gestor*/
-    .video {
-        width: 620px;
-        height: 345px;
-    }
-
-    /*Parceiros*/
-    #carousel {
-        margin: 0px 3rem 3rem 3rem;
-        height: 375px;
-    }
-
-    /*Depoimentos*/
-    .name-user{
-        padding: 9px 0 0 50%;
-        text-align: center;
-        font-size: 12px;
-    }
-
-    .user-images{
-       margin-left: 50%;
-       margin-top: 10px;
-    }
-
-    .text-user{
-        font-size: 12px;
-    }
-
-    /*Contato*/
-    .contact{
-        font-size: 17px;
-    }
-
-    /*Marcas*/
-    .card-title{
-        font-size: 28px;
-    }
-
-    .card-text{
+        position: relative;
+        z-index: 10;
         font-size: 16px;
     }
 
-    /*Serviços*/
-    .service-image {
-        width: 91%;
-        height: 395px;
-    }
-
     .service-title{
-        font-size: 20px;
+        padding: 150px 50px 20px 50px;
+        font-size: 23px;
     }
 
     .service-content{
         font-size: 16px;
     }
 
-    /*Seti*/
-    .seti-images {
+    .service-image {
+        width: 100%;
+        height: 400px;
+    }
+   
+
+    /*Sobre*/
+    #about{
+        padding: 3rem 1rem;  
+        background-color: #fff;  
+    }
+    
+    .about-title{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .group-image {
+        height: 100%;
+        width: 500px;
+    }
+    
+    .about-content{
+        height: 335px;
+    }
+
+    .card-text{
+        font-size: 12.5px;
+    }
+
+    /*Depoimento*/
+    .text-user{
+        font-size: 13.5px;
+    }
+
+    /*Sistema gestor*/
+    .video {
+        height: 346px;
+        width: 700px;
+    }
+
+    /*Parceiros*/
+
+    #carousel{
+        margin: 0 2rem 5rem 2rem;
         height: 350px;
-        width: 655px;
+    }
+
+    /*Contato*/
+    .contact{
+        font-size: 15px;
+    }
+
+    /*Footer*/
+    #footer{
+        margin: 30px 0 0 0 ;
+    }
+    
+    .footer-icons {
+        color: #000000;
+        padding-right: 20px;
+        font-size: 30px;
+    }
+    
+    
+    .footer-links{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+    
+    /*Marcas*/
+    .brand-text{
+        font-size: 16px;
+    }
+
+    .card-title{
+        font-size: 27px;
+    }
+
+    /*Seti*/
+    .seti-content{
+        font-size: 14px;
+    }
+
+    .seti-title{
+        font-size: 26px;
+    }
+    
+    /*Dara*/
+
+}
+
+@media (max-width: 540px) {
+
+    /*Títulos*/
+    .title{
+        margin: 2rem 0;
+        text-align: end;
+        border-bottom: 2px solid rgba(100, 100, 100, 0.342)
+    }
+
+    /*Banner*/    
+    .banner-title h1{
+        font-weight:900;
+        font-size:2.5em;
+        margin:3rem 0 ;
+        letter-spacing: 3px;
+    }
+
+    /*Sistema gestor*/
+    .video {
+        height: 65%;
+        width: 125%;
+        margin: 5rem 0;
+    }
+
+    /*Parceiros*/
+
+    .partners-images{
+        width: 100%;
+    }
+
+    #carousel{
+        margin: 0 20px 135px 20px ;
+        height: 550px;
+    }
+
+    /*Contato*/
+    .map{
+        height: 370px;
+        width: 100%;
+    }
+
+    /*Serviços*/
+    .seti-services{
+        width: 100%;
+    }
+
+    /*Seti*/
+    .navScroller{
+        font-size: 16px;
     }
 }
 
