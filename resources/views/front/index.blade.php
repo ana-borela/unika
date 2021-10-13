@@ -61,57 +61,6 @@
             </div>
         </section> 
 
-        <!--Serviços (bordas redondas)
-        <section class="text-light" id="service" data-scroll-section>
-
-            <div class="container py-5 text-center" data-tilt-max-glare>
-                <div class="row">
-        
-                    <div id="service-box" class="col-12 col-md-3 " data-tilt data-tilt-glare data-tilt-max-glare="0.8"
-                    data-scroll data-scroll-speed="-1">
-                        <div id="sistemas"></div>
-                    </div>
-                    
-                    <div id="service-box" class="col-12 col-md-3" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
-                    data-scroll data-scroll-speed="2">
-                        <div id="websites"></div>
-                    </div>
-                    
-                    <div id="service-box" class="col-12 col-md-3" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
-                    data-scroll data-scroll-speed="-1">
-                        <div id="consultoria"></div>
-                    </div>
-                    
-                    <div id="service-box" class="col-12 col-md-3" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
-                    data-scroll data-scroll-speed="2">
-                        <div id="redes"></div>
-                    </div>
-
-                    <div id="service-box" class="col-12 col-md-3" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
-                    data-scroll data-scroll-speed="-2">
-                        <div id="manutencao"></div>
-                    </div>
-                    
-                    <div id="service-box" class="col-12 col-md-3" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
-                    data-scroll data-scroll-speed="-1">
-                        <div id="assistencia"></div>
-                    </div>
-                    
-                    <div id="service-box" class="col-12 col-md-3" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
-                    data-scroll data-scroll-speed="-2">
-                        <div id="backup"></div>
-                    </div>
-                    
-                    <div id="service-box" class="col-12 col-md-3" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
-                    data-scroll data-scroll-speed="-2">
-                        <div id="helpdesk"></div>
-                    </div>
-        
-                </div>
-            </div>
-
-        </section>-->
-
         <!--Sobre e depoimentos-->
         <section id="about" data-scroll-section>
             <div class="container">
