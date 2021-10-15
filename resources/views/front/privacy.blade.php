@@ -1,8 +1,8 @@
 @extends('layouts.web')
 
-@section('content')
+@section('content') 
 
-    <div class="container-fluid mt-5 bg-white">
+    <div class="container-fluid mt-5 bg-white px-5">
         <div class="row">
 
             <div class="privacy col-md-12">
