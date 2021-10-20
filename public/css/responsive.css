@@ -19,6 +19,7 @@
         font-size:3em;
         padding:3rem 0 ;
         letter-spacing: 3px;
+        padding: 0 5px;
     }
 
     /*Serviços*/
@@ -84,6 +85,10 @@
         font-size: 13.5px;
     }
 
+    .user-images{
+        margin: 20px 0;
+    }
+
     /*Sistema gestor*/
     .video {
         height: 346px;
@@ -117,7 +122,7 @@
     .footer-links{
         text-decoration: none;
         color: black;
-        font-size: 16px;
+        font-size: 12px;
     }
     
     /*Marcas*/
@@ -138,8 +143,6 @@
         font-size: 26px;
     }
     
-    /*Dara*/
-
 }
 
 @media (max-width: 540px) {
