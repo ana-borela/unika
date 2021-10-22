@@ -21,18 +21,18 @@
         <!--Websites-->
         <div class="container pb-5">
             <div class="row">
+                {{-- LAC Advocacia - Ainda não foi pra producao --}}
+                <div class="col-4 col-md-2 p-0 website-block">
+                    <a href="#"> {{-- https://lacadvocacia.com.br/ --}}
+                        <img class="partners-images" src="{{ asset('material/clientes/lac-advocacia.png') }}" alt="LAC Advocacia - Logo" />
+                    </a>
+                </div>
                 {{-- NRServicos --}}
                 <div class="col-4 col-md-2 p-0 website-block">
                     <a target="_blank" href="https://nrservicos.com/">
                         <img class="partners-images" src="{{ asset('material/clientes/nr-servicos.png') }}" alt="NRServicos - Logo" />
                     </a>
                 </div>
-                {{-- LAC Advocacia - Ainda não foi pra producao --}}
-                {{-- <div class="col-4 col-md-2 p-0 website-block">
-                    <a target="_blank" href="https://lacadvocacia.com.br/">
-                        <img class="partners-images" src="{{ asset('material/clientes/lac-advocacia.png') }}" alt="LAC Advocacia - Logo" />
-                    </a>
-                </div> --}}
                 {{-- SCO --}}
                 <div class="col-4 col-md-2 p-0 website-block">
                     <a target="_blank" href="https://scodese.com/">
@@ -102,9 +102,11 @@
                     <a target="_blank" href="https://filtrosevelas.com.br"><img class="partners-images" src="{{ asset('images/parceiros/filtros-e-velas-min.png') }}" alt=""></a>
                 </div>
                 {{-- JCO Advocacia - Nao finalizado --}}
-                {{-- <div class="col-4 col-md-2 p-0 website-block">
-                    <a target="_blank" href="http://www.jcoadvocacia.com.br/em-breve/"><img class="partners-images" src="{{ asset('images/parceiros/jcoadvocacia-min.png') }}" alt=""></a>
-                </div> --}}
+                <div class="col-4 col-md-2 p-0 website-block">
+                    <a href="#"> {{-- http://www.jcoadvocacia.com.br/em-breve/ --}}
+                        <img class="partners-images" src="{{ asset('images/parceiros/jcoadvocacia-min.png') }}" alt="">
+                    </a>
+                </div>
                 {{-- OAB Araxa --}}
                 <div class="col-4 col-md-2 p-0 website-block">
                     <a target="_blank" href="https://www.oabaraxa.org.br"><img class="partners-images" src="{{ asset('images/parceiros/oab-araxa-min.png') }}" alt=""></a>
