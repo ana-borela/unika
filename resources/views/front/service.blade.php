@@ -8,10 +8,10 @@
         <div class="container-fluid p-0 bg-white">
             <div class="carousel slide m-0" data-bs-ride="carousel" id="service-carousel">
                 <div class="carousel-inner">
-    
+
                     <div class="carousel-item active text-center">
                         <div class="row">
-    
+
                             <div class="col-md-6">
                                 <img class="service-image" src="{{ asset('images/websites.png') }}" alt="">
                             </div>
@@ -26,7 +26,7 @@
 
                     <div class="carousel-item text-center ">
                         <div class="row">
-    
+
                             <div class="col-md-6">
                                 <h1 class="display-6 service-title">SERVIÇOS EM TI</h1>
                                 <p class="lead px-5 service-content">Soluções completas para sua empresa crescer com dimensionamento e segurança. Consultoria em TI. Assistência técnica.</p>
@@ -42,7 +42,7 @@
                     <button class="carousel-control-prev" type="button" data-bs-target="#service-carousel" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     </button>
-                    
+
                     <button class="carousel-control-next" type="button" data-bs-target="#service-carousel" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     </button>
@@ -68,7 +68,7 @@
                     </div>
 
                 </div>
-                
+
                 <div class="col-12 col-md-6 mb-4">
 
                     <div class="hvr text-center">
@@ -142,7 +142,7 @@
                     </div>
                 </div>
 
-                
+
                 <div class="col-12 col-md-6 mb-4 col-lg-4">
                     <div class="card hvr p-4 seti-services">
                         <a class="link-dark text-decoration-none text-center" href="{{ asset('seti/#6') }}">
@@ -155,5 +155,5 @@
         </div>
 
     </section>
-    
+
 @endsection

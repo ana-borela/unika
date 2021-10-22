@@ -1,77 +1,62 @@
 @extends('layouts.web')
 
 @section('content')
-
         <!--Banner-->
         <section class="banner" data-scroll-section id="banner" style="background-image: url('{{ asset('images/banner-min.jpg') }}')">
             <div class="banner-title">
-
-                <h1 data-scroll data-scroll-speed="3">Desde de 1991.
-                    E enquanto exigirem qualidade.</h1>
-
+                <h1 data-scroll data-scroll-speed="3">
+                    Desde de 1991. E enquanto exigirem qualidade.
+                </h1>
             </div>
         </section>
-
         <!--Serviços-->
         <section class="text-light" id="service" data-scroll-section>
             <div class="container py-5 text-center" data-tilt-max-glare>
                 <div class="row">
-
                     <div class="service-box col-12 col-md-3 p-5" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
                         data-scroll data-scroll-speed="3">
                         <h2 class="box-title">Desenvolvimento de sistemas</h2>
                     </div>
-
                     <div class="service-box col-12 col-md-3 p-5" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
                         data-scroll data-scroll-speed="-1">
                         <h2 class="box-title">Desenvolvimento de websites</h2>
                     </div>
-
                     <div class="service-box col-12 col-md-3 p-5" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
                         data-scroll data-scroll-speed="2">
                         <h2 class="box-title">Consultoria em TI</h2>
                     </div>
-
                     <div class="service-box col-12 col-md-3 p-5" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
                         data-scroll data-scroll-speed="3">
                         <h2 class="box-title">Redes & Conectividade</h2>
                     </div>
-
                     <div class="service-box col-12 col-md-3 p-5" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
                         data-scroll data-scroll-speed="-1">
                         <h2 class="box-title">Manutenção de servidores</h2>
                     </div>
-
                     <div class="service-box col-12 col-md-3 p-5" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
                         data-scroll data-scroll-speed="4">
                         <h2 class="box-title">Assistência técnica</h2>
                     </div>
-
                     <div class="service-box col-12 col-md-3 p-5" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
                         data-scroll data-scroll-speed="-2">
                         <h2 class="box-title">Soluções de Backup</h2>
                     </div>
-
                     <div class="service-box col-12 col-md-3 p-5" data-tilt data-tilt-glare data-tilt-max-glare="0.8"
                         data-scroll data-scroll-speed="2">
                         <h2 class="box-title">Helpdesk Local</h2>
                     </div>
-
                 </div>
             </div>
-        </section> 
-
+        </section>
         <!--Sobre e depoimentos-->
         <section id="about" data-scroll-section>
             <div class="container">
                 <div class="row mb-2">
-
                     <!--Sobre-->
                     <div class="col-md-12">
                         <h1 class="title" data-scroll data-scroll-direction="horizontal" data-scroll-speed="2"
                             data-scroll-class="appear" data-scroll-repeat="true">Quem somos</h1>
                     </div>
-
                     <div class="col-12 col-md-8">
                         <div
                             class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative hrv-grow">
@@ -94,7 +79,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-12 col-md-4">
                         <div
                             class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
@@ -112,7 +96,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-12 col-md-4">
                         <div
                             class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
@@ -129,7 +112,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-12 col-md-4">
                         <div
                             class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
@@ -145,7 +127,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-12 col-md-4">
                         <div
                             class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
@@ -160,21 +141,16 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-
                 <!--Depoimentos-->
                 <div class="container bg-white text-dark">
                     <div class="row">
-
                         <h1 class="title" data-scroll data-scroll-direction="horizontal" data-scroll-speed="2"
                             data-scroll-class="appear" data-scroll-repeat="true">Depoimentos</h1>
                     </div>
                 </div>
-
                 <div class="g-2 container bg-white text-dark p-5 text-center">
                     <div class="row">
-
                         <div class="col-12 col-md-6 hvr-border-fade">
                             <img class="user-images image-fluid mx-auto d-block"
                                 src="{{ asset('images/depoimentos/user-cesar.jpg') }}" alt="">
@@ -187,7 +163,6 @@
                                 conhecimentos favorecendo assim um bom atendimento.
                             </p>
                         </div>
-
                         <div class="col-12 col-md-6 hvr-border-fade">
                             <img class="user-images image-fluid mx-auto d-block"
                                 src="{{ asset('images/depoimentos/user-jordana.jpg') }}" alt="">
@@ -202,7 +177,6 @@
                                 Estamos muito felizes com a parceria.
                             </p>
                         </div>
-
                         <div class="col-12 col-md-6 hvr-border-fade">
                             <img class="user-images image-fluid mx-auto d-block"
                                 src="{{ asset('images/depoimentos/user-samuel.jpg') }}" alt="">
@@ -216,7 +190,6 @@
                                 satisfeitos com os resultados obtidos até agora.
                             </p>
                         </div>
-
                         <div class="col-12 col-md-6 hvr-border-fade">
                             <img class="user-images image-fluid mx-auto d-block"
                                 src="{{ asset('images/depoimentos/user-manoel.jpg') }}" alt="">
@@ -233,14 +206,10 @@
                                 mais de 3.500 associados, e à cidade de Uberaba.
                             </p>
                         </div>
-
                     </div>
                 </div>
-
-
             </div>
         </section>
-
         <!--Sistema gestor-->
         <section id="system" data-scroll-section>
             <div class="system container p-3">
@@ -258,27 +227,22 @@
                 </div>
             </div>
         </section>
-
         <!--Parceiros-->
         <section id="partners" data-scroll-section>
-
             <div class="container">
                 <div class="row">
-
                     <div class="col-md-12">
                         <h1 class="title text-white" data-scroll data-scroll-direction="horizontal" data-scroll-speed="2"
                             data-scroll-class="appear" data-scroll-repeat="true">Nossos
                             Parceiros</h1>
                     </div>
-
                 </div>
             </div>
-
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
-                            
+
                             <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/3pinti-min.png') }}" alt="">
                             </div>
@@ -333,7 +297,6 @@
                             <div class="col-4 col-md-2 my-2">
                                 <img class="partners-images" src="{{ asset('images/parceiros/filtros-e-velas-min.png') }}" alt="">
                             </div>
-                            
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -419,7 +382,6 @@
                 </div>
             </div>
         </section>
-
         <!--Contato-->
         <section id="contact" data-scroll-section>
             <div class="container py-5">
@@ -450,7 +412,7 @@
                 </div>
             </div>
         </section>
-
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
-
 @endsection
+@push('scripts')
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js" type="text/Javascript"></script>s
+@endpush
